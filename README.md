@@ -227,13 +227,13 @@ On Debian and Ubuntu, the necessary files can be installed with
 - `make`
 
 ### Execution Instructions
-Run the executable `cychain-sig-poc` in `build/` directory as follows:
-`./cychain-sig-poc <num-of-users> <num-of-validators> <sec-level>`
+Run the executable `cychain_sig_gen` in `build/` directory as follows:
+`./cychain_sig_gen <num-of-users> <num-of-validators> <sec-level>`
 
 Examples:
-`./cychain-sig-poc 10 1000 128`
-`./cychain-sig-poc 100 1000 128`
-`./cychain-sig-poc 100 2000 128`
+`./cychain_sig_gen 10 1000 128`
+`./cychain_sig_gen 100 1000 128`
+`./cychain_sig_gen 100 2000 128`
 
 > \<sec-level\> can only be 128 or 256.
 
