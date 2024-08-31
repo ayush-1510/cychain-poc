@@ -21,7 +21,7 @@
 #ifndef BICYCL_GMP_EXTRAS_HPP
 #define BICYCL_GMP_EXTRAS_HPP
 
-#include <gmp.h>
+#include "./../../../gmp-local/include/gmp.h"
 
 #include <cstdint>
 #include <stdexcept>

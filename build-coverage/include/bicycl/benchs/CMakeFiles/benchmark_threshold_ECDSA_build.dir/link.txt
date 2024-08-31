@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/benchmark_threshold_ECDSA_build.dir/benchmark_threshold_ECDSA.cpp.o -o benchmark_threshold_ECDSA  /usr/lib/libgmp.so /usr/lib/libgmpxx.so /usr/lib/libcrypto.so

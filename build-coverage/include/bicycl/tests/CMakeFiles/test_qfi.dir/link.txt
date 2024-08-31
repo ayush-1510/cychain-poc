@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/test_qfi.dir/test_qfi.cpp.o -o test_qfi  /usr/lib/libgmp.so /usr/lib/libgmpxx.so /usr/lib/libcrypto.so

@@ -34,3 +34,9 @@ target_link_libraries(cychain_sig_gen PRIVATE "${TREZOR_FIRMWARE_DIR}/crypto/tes
 
 # Add dependencies for the poc target
 add_dependencies(poc cychain_sig_gen)
+
+if(CMAKE_BUILD_TYPE STREQUAL "Coverage")
+    message(STATUS "Building for coverage")
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fprofile-arcs -ftest-coverage -fprofile-update=atomic")
+    set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -lgcov")
+endif()

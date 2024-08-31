@@ -1,1 +1,0 @@
-/usr/bin/c++ "CMakeFiles/chia-vdf.dir/chia-vdf.cpp.o" -o chia-vdf  /usr/lib/libgmp.so /usr/lib/libgmpxx.so /usr/lib/libcrypto.so
